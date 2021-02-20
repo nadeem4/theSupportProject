@@ -1,0 +1,68 @@
+<header class="header flex-grid">
+	<div class="lefts flex">
+		<div class="logo-area flex">
+			<a href="javascript:;" class="btn-logo company-logo">
+				<img src="assets/i/theSupportProject-logos.jpeg" alt="img" />
+			</a>
+			<div class="line"></div>
+			<!-- <a [routerLink]="['/home-page']" class="btn-logo dig-logo">
+				<img src="assets/i/dig-black-logo@2x.png" alt="img" />
+			</a> -->
+		</div>
+		<div class="header-nav">
+			<ul class="flex">
+				<li>
+					<a [routerLink]="['/home']" class="tab-items"
+					  [class.current]="activeMenu === 'Home'"
+                      (click)="activeMenu = 'Home'">
+						Home
+					</a>
+				</li>
+				<li>
+					<a [routerLink]="['/about-us']" class="tab-items"
+					  [class.current]="activeMenu === 'About Us'"
+                      (click)="activeMenu = 'About Us'">
+						About Us
+					</a>
+				</li>
+				<li>
+					<a [routerLink]="['/mission']" class="tab-items"
+					  [class.current]="activeMenu === 'Mission'"
+                      (click)="activeMenu = 'Mission'">
+						Mission 
+					</a>
+				</li>
+				<li>
+					<a [routerLink]="['/our-meetings']" class="tab-items"
+					  [class.current]="activeMenu === 'Our Meetings'"
+                      (click)="activeMenu = 'Our Meetings'">
+						Our Meetings 
+					</a>
+				</li>
+				<li>
+					<a [routerLink]="['/resources']" class="tab-items"
+					  [class.current]="activeMenu === 'Resources'"
+                      (click)="activeMenu = 'Resources'">
+						Resources 
+					</a>
+				</li>
+				<li>
+					<a [routerLink]="['/vision']" class="tab-items"
+					  [class.current]="activeMenu === 'Vision'"
+                      (click)="activeMenu = 'Vision'">
+						Vision 
+					</a>
+				</li>
+				<li>
+					<a [routerLink]="['/stories']" class="tab-items"
+					  [class.current]="activeMenu === 'Stories'"
+                      (click)="activeMenu = 'Stories'">
+						Stories 
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--end .header-nav-->
+	</div>
+</header>
+<!-- end .header -->

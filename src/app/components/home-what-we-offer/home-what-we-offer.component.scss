@@ -1,0 +1,27 @@
+@import '../../../styles/variables';
+
+.we-offer-content {
+    width: 80%;
+    padding: 40px;
+    margin: auto;
+    .blue-title {
+        color: #f7bf50;
+        font-family: 'Playfair Display', serif;
+        font-size: 54px;
+        font-weight: 700;
+        letter-spacing: -0.17px;
+        line-height: 60px;
+        margin-bottom: 19px;
+    }
+    .txt {
+        color: #646363;
+        font-family: "Playfair Display', serif";
+        font-style: oblique;
+        font-size: 18px;
+        line-height: 36px;
+    }
+}
+
+.row {
+    display: block;
+}
